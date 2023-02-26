@@ -1,0 +1,406 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+.container_header_name{
+    display: flex;
+}
+
+.header_name{
+    color: #272042;
+    margin-left: 10px;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+}
+
+ul li{
+    list-style-type: none;
+    color: #8b8ba5;
+    margin-left: 15px;
+}
+
+.home {
+    color: #272042;
+}
+
+.button_kitchen{
+    background-color: #fbe0dc;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #272042;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-style: none;
+}
+
+.container{
+    margin-top: 20px;
+}
+
+.container_one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.eat{
+    font-size: 46px;
+    color: #272042;
+    padding-bottom: 10px;
+}
+
+.container_one{
+    color: #8b8ba5;
+    font-size: 20px;
+}
+
+.button_decide{
+    background-color: #f7c531;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #272042;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: none;
+    margin-top: 30px;
+}
+
+.images{
+    border-top-right-radius: 80px;
+    border-top-left-radius: 90px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 90px;
+    padding-left: 30px;
+    
+
+}
+
+.watch{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10%;
+    color: #8b8ba5;
+    font-style: normal;
+}
+
+.Special{
+    font-size: 30px;
+    padding-top: 5px;
+    color: black;
+    padding-bottom: 20px;
+}
+
+.Healty{
+    color: yellow;
+}
+
+nav ul{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0%;
+    margin-bottom: 50px;
+    
+    
+
+}
+
+.pertama{
+    
+    position: absolute;
+    margin-top: 00%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 50%;
+    width: 15%; 
+    border-top-left-radius: 20px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 20px; 
+   
+}
+.psatu{
+    position: absolute;
+    margin-left: 11%;
+    padding-top: 16%;
+}
+
+.pembuat{
+    position: absolute;
+    margin-left: 12%;
+    padding-left:7px;
+    padding-top: 18%;
+}
+
+.kedua{
+position: absolute;
+    margin-top: 00%;
+    margin-left: 30%;
+    margin-right: 10%;
+    margin-bottom: 50%;
+    width: 15%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 20px; 
+   
+}
+
+.pdua{
+     position: absolute;
+    margin-left: 32%;
+    padding-top: 16%;
+}
+
+.pembuat2{
+    position: absolute;
+    margin-left: 33%;
+    padding-left:13px;
+    padding-top: 18%;
+}
+
+
+.ketiga{
+
+position: absolute;
+display: flex;
+    margin-top: 00%;
+    margin-left: 50%;
+    margin-right: 10%;
+    margin-bottom: 50%;
+    width: 15%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 20px; 
+   
+}
+
+.ptiga{
+    position: absolute;
+    margin-left: 51%;
+    padding-top: 16%;
+}
+
+.pembuat3{
+    position: absolute;
+    margin-left: 53%;
+    padding-left:7px;
+    padding-top: 18%;
+}
+
+
+.keempat{
+
+position: absolute;
+display: flex;
+    margin-top: 00%;
+    margin-left: 70%;
+    margin-right: 10%;
+    margin-bottom: 50%;
+    width: 15%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 20px; 
+   
+}
+
+.pempat{
+    position: absolute;
+    margin-left: 72%;
+    padding-top: 16%;
+}
+
+.pembuat4{
+    position: absolute;
+    margin-left: 72%;
+    padding-left:7px;
+    padding-top: 18%;
+}
+
+
+ .paragraf {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 350px;
+    
+}
+
+.profil{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-left: 41%;
+    margin-top: 30px;
+
+}
+
+.p{
+    position: absolute;
+    text-align: center;
+    padding-top: 50px;
+    margin-left: 100px;
+    padding-left: 40%;
+    font-size: 15px;
+}
+
+.p1{
+    position: absolute;
+    text-align: center;
+    padding-top: 70px;
+    margin-left: 100px;
+    padding-left: 40%;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: lighter;
+
+}
+
+.makan{
+    position: absolute;
+    text-align: center;
+    margin-top: 20%;
+    margin-left: 13%;
+    color: #272042;
+}
+.MENU{
+    position: absolute;
+    text-align: center;
+    margin-top: 20%;
+    margin-left: 13%;
+    padding-top: 34px;
+}
+
+.chef{
+    position: absolute;
+    text-align: center;
+    margin-top: 20%;
+    margin-left: 35%;
+    padding-top: 0px;
+    color: #272042;
+}
+
+.chefs{
+    position: absolute;
+    text-align: center;
+    margin-top: 20%;
+    margin-left: 35%;
+    padding-top: 33px;
+}
+
+.course{
+    position: absolute;
+    text-align: center;
+    margin-top: 20%;
+    margin-left: 55%;
+    padding-top: 0px;
+    color: #272042;
+}
+
+.courses{
+    position: absolute;
+    text-align: center;
+    margin-top: 20%;
+    margin-left: 55%;
+    padding-top: 33px;
+    font-style: normal;
+}
+
+.alumni{
+    position: absolute;
+    text-align: center;
+    margin-top: 20%;
+    margin-left: 75%;
+    padding-top: 0px;
+    color: #272042;
+}
+
+.alumnis{
+    position: absolute;
+    text-align: center;
+    margin-top: 20%;
+    margin-left: 75%;
+    padding-top: 30px;
+    font-style: normal;
+}
+.container_two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10%;
+    margin-top: 20%;
+}
+
+.images_order{
+    
+     border-top-right-radius: 80px;
+    border-top-left-radius: 90px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 90px;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+.download{
+    margin-left: 15%;
+    font-size: 40px;
+}
+footer{
+     display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+.images_footer{
+    display: flex;
+    position: absolute;
+    margin-top: 20%;
+}
+.footer_name{
+
+    display: flex;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 20%;
+}
+
+
+
